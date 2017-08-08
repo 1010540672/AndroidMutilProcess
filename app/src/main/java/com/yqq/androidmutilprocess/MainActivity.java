@@ -125,7 +125,6 @@ public class MainActivity extends AppCompatActivity {
         getAllInfo4IPC("CodeMonkey","========这是一个IPC测试========");
     }
 
-
     @Override
     protected void onDestroy() {
         super.onDestroy();
