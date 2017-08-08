@@ -126,5 +126,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        //解除监听接口
+        if ( null!=mAllInfo && mAllInfo.asBinder().isBinderAlive()) {
+            try {
+                mAllInfo.unregisterReceiveListener(mMessageReceived);
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }
