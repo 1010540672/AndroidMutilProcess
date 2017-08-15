@@ -16,6 +16,9 @@ import com.yqq.androidmutilprocess.utils.ThreadPoolUtils;
 
 import java.lang.ref.WeakReference;
 
+/**
+ * IPC  支持的数据类型 java基本类型  list  map parcable
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG ="MainActivity" ;
