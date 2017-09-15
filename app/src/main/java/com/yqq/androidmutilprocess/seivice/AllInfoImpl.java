@@ -55,4 +55,9 @@ public class AllInfoImpl extends IGetAllInfo.Stub {
     public void unregisterReceiveListener(MessageReceiver4Test allInfosCallBack) throws RemoteException {
         listenerList.unregister(allInfosCallBack);
     }
+
+    @Override
+    public String reqAllInfo2(String name, String content) throws RemoteException {
+        return null;
+    }
 }

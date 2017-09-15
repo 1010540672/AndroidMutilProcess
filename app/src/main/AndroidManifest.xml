@@ -25,6 +25,10 @@
         <service android:name=".seivice.CoreService"
             android:process=":test"
             />
+        <service android:name=".seivice.CoreService2"
+            android:process="com.yqqtest.yqq"
+
+            />
     </application>
 
 </manifest>

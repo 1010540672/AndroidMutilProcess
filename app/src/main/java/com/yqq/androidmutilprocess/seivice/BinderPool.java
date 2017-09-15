@@ -110,14 +110,10 @@ public class BinderPool {
         public IBinder queryBinder(int binderCode) throws RemoteException {
             IBinder binder = null;
             switch (binderCode) {
-
-
             case BINDER_ALL_INFO:
                 //所有相关
                 binder = new AllInfoImpl();
                 break;
-
-
             default:
                 break;
             }

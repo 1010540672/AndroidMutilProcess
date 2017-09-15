@@ -1,6 +1,6 @@
 package com.yqq.androidmutilprocess;
 
-//Binder连接池
+//Binder连接池  IBinderPool4Test.aidl
 interface IBinderPool4Test {
 
     /**
